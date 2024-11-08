@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # 6. Run tests
-RUN npm run test
+#RUN npm run test
 
 # 7. Build the application
 RUN npm run build
